@@ -15,6 +15,7 @@ navLinks.forEach(link => {
   });
 });
 
+
 // Other parts of your JavaScript code remain unchanged...
 const container = document.querySelector(".container");
 
