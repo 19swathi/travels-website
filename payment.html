@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,600,700,900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+   
+</head>
+<body>
+    <div class="payment-container">
+        <h2>Payment Details</h2>
+        <img src="https://via.placeholder.com/800x200" alt="Payment Banner" class="payment-banner" />
+        <form onsubmit="handleSubmit(event)">
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" name="firstName" required>
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" name="lastName" required>
+            <label for="cardNumber">Card Number:</label>
+            <input type="text" id="cardNumber" name="cardNumber" required>
+            <label for="expiryDate">Expiry Date:</label>
+            <input type="text" id="expiryDate" name="expiryDate" placeholder="MM/YYYY" required>
+            <label for="cvv">CVV:</label>
+            <input type="text" id="cvv" name="cvv" maxlength="3" required>
+            <label for="nameOnCard">Name on Card:</label>
+            <input type="text" id="nameOnCard" name="nameOnCard" required>
+            <button type="submit">Pay Now</button>
+        </form>
+        <div id="confirmationMessage" class="confirmation-message">
+            Payment Confirmed! Thank you for your payment.
+        </div>
+        <div class="links-container">
+            <a href="index.html">Back to Main Page</a>
+        </div>
+    </div>
+</body>
+</html>

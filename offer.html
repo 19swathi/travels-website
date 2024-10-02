@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Offer</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,600,700,900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+        <div class="container">
+            <div class="open-navbar-icon navbar-icon center" id="navbarMenu">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <div class="navbar-wrapper">
+                <nav class="navbar">
+                    <div class="close-navbar-icon navbar-icon center">
+                        <div class="line line-1"></div>
+                        <div class="line line-2"></div>
+                    </div>
+                    <div class="nav-list">
+                        <a href="index.html" class="nav-link center">Home</a>
+                        <a href="tours.html" class="nav-link center">Tours</a>
+                        <a href="about.html" class="nav-link center">About Us</a>
+                        <a href="offer.html" class="nav-link center">Offer</a>
+                        <a href="contact.html" class="nav-link center">Contact</a>
+                    </div>
+                </nav>
+            </div>
+            <!-- End of Navbar -->
+
+    <h2>Special Offers</h2>
+<h3>Offer Headings</h3>
+    <table class="offer-headings-table">
+        <thead>
+            <tr>
+                <th>Offer</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Two Persons Offer</td>
+                <td>Get 50% off for two people on selected tours!</td>
+            </tr>
+            <tr>
+                <td>Family Adventure</td>
+                <td>Enjoy a thrilling family adventure at 30% off!</td>
+            </tr>
+            <tr>
+                <td>Weekend Getaway</td>
+                <td>Escape for a relaxing weekend getaway with 40% off!</td>
+            </tr>
+            <tr>
+                <td>Extreme Expedition</td>
+                <td>Embark on an extreme expedition with 60% off!</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="offer-container">
+        <div class="offer">
+            <h3>Two Persons Offer</h3>
+            <p>Get 50% off for two people on selected tours!</p>
+            <ul>
+                <li>7 days tour</li>
+                <li>Up to 20 people</li>
+                <li>4 tour guides</li>
+                <li>Sleep in private tents</li>
+                <li>Difficulty: medium</li>
+            </ul>
+	               <button class="offer-button" onclick="bookNow()">Book Now</button>
+        </div>
+    </div>
+
+    <!-- Additional Offers -->
+    <div class="offer-container">
+        <div class="offer">
+            <h3>Family Adventure</h3>
+            <p>Enjoy a thrilling family adventure at 30% off!</p>
+            <ul>
+                <li>10 days tour</li>
+                <li>Up to 5 family members</li>
+                <li>2 experienced guides</li>
+                <li>Stay in cozy cabins</li>
+                <li>Difficulty: easy</li>
+            </ul>
+            <button class="offer-button" onclick="bookNow()">Book Now</button>
+        </div>
+    </div>
+
+    <div class="offer-container">
+        <div class="offer">
+            <h3>Weekend Getaway</h3>
+            <p>Escape for a relaxing weekend getaway with 40% off!</p>
+            <ul>
+                <li>3 days tour</li>
+                <li>Up to 10 people</li>
+                <li>1 tour leader</li>
+                <li>Stay in a charming inn</li>
+                <li>Difficulty: easy</li>
+            </ul>
+            <button class="offer-button" onclick="bookNow()">Book Now</button>
+        </div>
+    </div>
+
+    <div class="offer-container">
+        <div class="offer">
+            <h3>Extreme Expedition</h3>
+            <p>Embark on an extreme expedition with 60% off!</p>
+            <ul>
+                <li>14 days tour</li>
+                <li>Up to 8 adventurers</li>
+                <li>3 expert guides</li>
+                <li>Camp under the stars</li>
+                <li>Difficulty: challenging</li>
+            </ul>
+            <button class="offer-button" onclick="bookNow()">Book Now</button>
+        </div>
+    </div>
+    <!-- End of Additional Offers -->
+
+    
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-list">
+            <a href="index.html" class="footer-link">Home</a>
+            <a href="tours.html" class="footer-link">Tours</a>
+            <a href="about.html" class="footer-link">About Us</a>
+            <a href="offer.html" class="footer-link">Offer</a>
+            <a href="contact.html" class="footer-link">Contact</a>
+        </div>
+        <p>&copy; 2024 Around the World</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
